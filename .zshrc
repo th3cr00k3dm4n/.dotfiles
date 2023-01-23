@@ -2,7 +2,7 @@
 
 # Enable colors and change prompt:
 autoload -U colors && colors
-PS1="%B%{$fg[blue]%}→%{$reset_color%}%b "
+PS1="%B%{$fg[green]%}%~%{$fg[blue]%} →%{$reset_color%}%b "
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
@@ -17,5 +17,5 @@ _comp_options+=(globdots)		# Include hidden files.
 
 
 
-#source
+
 source ~/.scripts/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
