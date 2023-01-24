@@ -1,65 +1,55 @@
-/* 
- * Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
- * Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
-*/
+/* ::root{ */
+/*     --accent: #5291e2; */
+/*     --dark: #383C4A; */
+/*     --light: #7C818C; */
+/*     --ld: #404552; */
+/*     --dl: #4B5162 */
+/*     --white: white; */
+/* } */
 
-/** ********** Fonts ********** **/
-* {
-    font-family: "JetBrains Mono", "Iosevka Nerd Font", archcraft, sans-serif;
-    font-size: 12px;
+*{
+    font-family: monospace;
 }
 
-#window {
-	background-color: --wofi-color0;
-	color: --wofi-color2;
-	border: 2px solid --wofi-color1;
-	border-radius: 10px;
-}
-
-#outer-box {
-	padding: 20px;
+window {
+    background-color: #7C818C;
 }
 
 #input {
-	background-color: --wofi-color1;
-	border: 0px solid --wofi-color3;
-	padding: 8px 12px;
-}
-
-#scroll {
-	margin-top: 20px;
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid black;
+    background-color: #383C4A;
+    color: white;
 }
 
 #inner-box {
+    background-color: #383C4A;
+
 }
 
-#img {
-	padding-right: 8px;
+#outer-box {
+    margin: 5px;
+    padding:20px;
+    background-color: #383C4A;
+}
+
+#scroll {
 }
 
 #text {
-	color: --wofi-color2;
+padding: 5px;
+color: white;
 }
 
-#text:selected {
-	color: --wofi-color0;
-}
-
-#entry {
-	padding: 6px;
+#entry:nth-child(even){
+    background-color: #404552;
 }
 
 #entry:selected {
-	background-image: linear-gradient(to right, --wofi-color4 , --wofi-color5);
-	color: --wofi-color0;
+    background-color: #5291e2;
 }
 
-#unselected {
-}
-
-#selected {
-}
-
-#input, #entry:selected {
-	border-radius: 0px;
+#text:selected {
 }
