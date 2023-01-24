@@ -34,6 +34,17 @@ layer=overlay
 anchor=top-right
 
 
+# Colors
+
+background-color=#303446
+text-color=#c6d0f5
+border-color=#8caaee
+progress-color=over #414559
+
+[urgency=critical]
+border-color=#ef9f76
+
+
 [urgency=low]
 border-color=#2D3039
 default-timeout=2000
@@ -46,13 +57,3 @@ default-timeout=5000
 border-color=#F6C177
 default-timeout=2000
 group-by=category
-
-# Colors
-
-background-color=#303446
-text-color=#c6d0f5
-border-color=#8caaee
-progress-color=over #414559
-
-[urgency=critical]
-border-color=#ef9f76
