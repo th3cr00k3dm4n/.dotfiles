@@ -15,7 +15,7 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
 
-
-
+alias  ls="ls -al"
+alias push="git add . && git commit -m "commit" && git push "
 
 source ~/.scripts/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
