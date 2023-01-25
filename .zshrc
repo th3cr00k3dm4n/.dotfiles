@@ -16,6 +16,5 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 alias  ls="ls -al"
-alias push="read -p "Enter commit comment" CMNT &&  git add . && git commit -m "$CMNT" && git push "
 
 source ~/.scripts/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
