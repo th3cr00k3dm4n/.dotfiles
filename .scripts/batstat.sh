@@ -14,5 +14,5 @@ else
 			notify-send -u critical  "Running out of fuel :( "
 	fi
 fi
-sleep 50
+sleep 20
 done
