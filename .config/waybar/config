@@ -23,11 +23,10 @@
  		"custom/updates":{
  			"format":"{icon}{}",
  			"format-icons":"",
-			"exec": "checkupdates | wc -l",
-			"interval": 300,
- 			"on-click":"alacritty pacman -Syu",
- 			"tooltip":"false",
-			
+		    "exec": "checkupdates | wc -l",
+	        "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
+    	    "interval": 15,
+        	"on-click": "alacritty -e yay -Syu && notify-send 'The system has been updated' "		
  	},
  		
  	},
