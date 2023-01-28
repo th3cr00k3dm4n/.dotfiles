@@ -15,7 +15,11 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
 
+#alias
 alias  ls="ls -al"
+alias dwn="cd storage/downloads"
+
+
 
 source ~/.scripts/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 source ~/.scripts/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
