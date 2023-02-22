@@ -25,7 +25,7 @@
  			"format-icons":"",
 		    "exec": "checkupdates | wc -l",
     	    "interval": 15,
-        	"on-click": "alacritty -e pacman  -Syu  && notify-send 'The system has been updated'  || notify-send 'Updation failed' " 		
+        	"on-click": "alacritty -e pacman  -Syu  && notify-send 'The system has been updated' " 		
  	},
  		
  	},
