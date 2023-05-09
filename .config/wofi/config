@@ -1,6 +1,6 @@
 ## Files (absolute path)
-#style=/home/USER/.config/wofi/style.css
-#color=/home/USER/.config/wofi/colors
+style=/home/cr00k3d/.config/wofi/style.css
+color=/home/cr00k3d/.cashe/wal/colors
 
 ## General
 show=drun

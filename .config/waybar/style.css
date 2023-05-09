@@ -1,3 +1,5 @@
+@import url("/home/cr00k3d/.cache/wal/colors-waybar.css");
+
 * {
  
     font-family: Source Code Pro;
@@ -12,7 +14,7 @@ window#waybar {
 }
 
 tooltip {
-	background: #0f0f0f;
+	background: @background;
 	border-radius: 15px;
 	border-width: 2px;
 	border-style: groove;
@@ -33,19 +35,19 @@ tooltip {
 #battery, 
 #tray,
 #custom-power {
-	background-color: #434c5e;
+	background-color: @background;
 	padding: 5px 10px;
 	margin: 5px 0px;
 	
 }
 
  #custom-weather {
-	background-color: #434c5e;
+	background-color: @background;
 	 border-radius: 15px 0px 0px 15px;
 }
 
 #custom-updates{
-	   background-color:#434c5e;
+	   background-color: @background;
 	   border-radius: 0px 15px 15px 0px;
            margin-right: 10px;
 }
@@ -64,7 +66,7 @@ tooltip {
 
 #battery.charging, #battery.plugged {
 	color: #161320;
-    background-color: #B5E8E0;
+    background-color: @color10;
 }
 
 #battery.critical:not(.charging) {

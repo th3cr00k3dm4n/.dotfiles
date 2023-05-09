@@ -1,7 +1,7 @@
 ## Configuration for Alacritty, the GPU enhanced terminal emulator.
 ## Import files (Colors, Fonts, Etc)
 import:
-  - ~/.config/alacritty/colors.yml
+  - ~/.cache/wal/colors.yml
   - ~/.config/alacritty/fonts.yml
 
 ## Set environment variables

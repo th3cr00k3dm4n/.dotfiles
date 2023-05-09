@@ -1,5 +1,5 @@
 /* import css definitions for current theme */
-@import url("./theme.css");
+@import url("/home/cr00k3d/.cache/wal/colors.css");
 
 #outer-box {
 	/*border: 1px solid @accent_color;
@@ -22,7 +22,7 @@
 }
 
 window {
-	color: @text;
+	color: @background;
 	border-radius: 20px;
 	
 }
