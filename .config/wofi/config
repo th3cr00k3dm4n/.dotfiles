@@ -10,12 +10,12 @@ layer=top
 term=foot
 
 ## Geometry
-width=900px
-height=415px
-location=0
-#xoffset=10
-#yoffset=10
-#lines=8
+width=600px
+height=215px
+location=2
+xoffset=10
+yoffset=100
+lines=4
 columns=2
 orientation=vertical
 halign=fill
@@ -34,7 +34,7 @@ image_size=24
 exec_search=false
 hide_search=false
 parse_search=false
-#matching=fuzzy
+matching=fuzzy
 insensitive=false
 
 ## Other

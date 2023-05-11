@@ -1,28 +1,70 @@
-/* import css definitions for current theme */
-@import url("/home/cr00k3d/.cache/wal/colors.css");
-
-#outer-box {
-	/*border: 1px solid @accent_color;
-	border-radius: 10px;*/
-}
-
-#input {
-	border: none;
-	border-radius: 20px;
-	margin: 10px;
-}
-
-#img {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-#text {
-	margin-left:1em;	
+* {
+  font-family: FiraCode Nerd Font;
 }
 
 window {
-	color: @background;
-	border-radius: 20px;
-	
+  margin: 0px;
+  background-color: rgba(31, 31, 31, 0.95);
+  border-radius: 20px;
+}
+
+#input {
+  all: unset;
+  min-height: 36px;
+  padding: 4px 10px;
+  margin: 4px;
+  border: none;
+  color: #e2e0ec;
+  font-weight: bold;
+  background-color: #595959;
+  outline: none;
+  border-radius: 0px;
+  margin: 10px;
+  margin-bottom: 2px;
+    border-radius: 10px;
+
+}
+
+#inner-box {
+  margin: 4px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#outer-box {
+  margin: 0px;
+  padding: 3px;
+  border: none;
+  border-radius: 20px;
+  border: 2px solid #595959;
+}
+
+#scroll {
+  margin-top: 5px;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 5px;
+}
+
+#text:selected {
+  color: #f1f0f5;
+  margin: 0px 0px;
+  border: none;
+  border-radius: 0px;
+}
+
+#entry {
+  margin: 0px 0px;
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+#entry:selected {
+  margin: 0px 0px;
+  border: none;
+  border-radius: 0px;
+  background: #595959;
+   background: linear-gradient(90deg, #E97193 0%, #82A497 100%); 
 }

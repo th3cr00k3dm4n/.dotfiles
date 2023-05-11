@@ -1,47 +1,56 @@
-* {
-	background-image: none;
-}
+@define-color fg #ebdbb2;
+@define-color bg #1d2021;
+
+@define-color black #282828;
+@define-color red #cc241d;
+@define-color green #b8bb26;
+@define-color yellow #fabd2f;
+@define-color blue #83a598;
+@define-color purple #d3869b;
+@define-color aqua #8ec07c;
+@define-color orange #fe8019;
+
 window {
-	background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(40, 40, 40, 0.5);
+  font-family: Sauce Code Pro Nerd Font;
+  font-size: 80px;
 }
+
+grid {
+  border-radius: 30px;
+  margin: 200px 400px;
+  padding: 10px;
+  background-color: @bg;
+}
+
 button {
-    color: rgba(255, 255, 255, 1);
-	background-color: rgba(12, 12, 12, 0.7);
-	border-style: solid;
-	border-width: 1px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 25%;
-	border-radius: 10;
-	margin: 5px 5px;
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: @black;
+  outline-style: none;
+  margin: 10px;
+  padding: 40px;
+  background-repeat: no-repeat;
+  background-size: 0%;
+  background-position: center;
+  background-color: @black;
 }
 
-button:focus, button:active, button:hover {
-	background-color: #336774;
-	outline-style: none;
-}
-
-
-#lock {
-    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
-}
-
-#logout {
-    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
-}
-
-#suspend {
-    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
-}
-
-#hibernate {
-    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+button:focus,
+button:active {
+  border-color: @color;
 }
 
 #shutdown {
-    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+  color: @red;
 }
 
 #reboot {
-    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+  color: @blue;
 }
+
+#logout {
+  color: @green;
+}
+
+
