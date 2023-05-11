@@ -41,3 +41,30 @@ cursor:
 
 ## Live config reload
 live_config_reload: true
+# BEGIN ACE
+colors:
+  primary:
+    background: '#6b3244'
+    foreground: '#d9c4e7'
+  cursor:
+    text:       '#6b3244'
+    cursor:     '#d9c4e7'
+  normal:
+    black:      '#6b3244'
+    red:        '#CF99A8'
+    green:      '#B28FD3'
+    yellow:     '#9C92E6'
+    blue:       '#AE95E7'
+    magenta:    '#C998D3'
+    cyan:       '#D5B0CD'
+    white:      '#d9c4e7'
+  bright:
+    black:      '#9789a1'
+    red:        '#CF99A8'
+    green:      '#B28FD3'
+    yellow:     '#9C92E6'
+    blue:       '#AE95E7'
+    magenta:    '#C998D3'
+    cyan:       '#D5B0CD'
+    white:      '#d9c4e7'
+# END ACE

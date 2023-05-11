@@ -16,8 +16,9 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 #alias
-alias  ls="ls -al"
 alias dwn="cd Downloads"
+alias ll="ls -al"
+alias dots="cd .dotfiles"
 
 
 
