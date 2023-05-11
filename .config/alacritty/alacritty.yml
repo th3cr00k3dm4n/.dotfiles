@@ -23,12 +23,14 @@ window:
   startup_mode: Windowed
   dynamic_title: true
 
+  opacity: 0.7
 ## scrolling
   history: 10000
   multiplier: 3
 
+    
 ## Background opacity
- # opacity: 0.95
+ 
 ## Cursor
 cursor:
   style:
