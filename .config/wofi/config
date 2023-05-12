@@ -7,7 +7,7 @@ show=drun
 prompt=Search Applications
 normal_window=false
 layer=top
-term=foot
+term=alacritty
 
 ## Geometry
 width=600px

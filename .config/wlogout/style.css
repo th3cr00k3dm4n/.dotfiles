@@ -1,6 +1,5 @@
 @define-color fg #ebdbb2;
 @define-color bg #1d2021;
-
 @define-color black #282828;
 @define-color red #cc241d;
 @define-color green #b8bb26;
@@ -13,7 +12,7 @@
 window {
   background-color: rgba(40, 40, 40, 0.5);
   font-family: Sauce Code Pro Nerd Font;
-  font-size: 80px;
+  font-size: 20px;
 }
 
 grid {

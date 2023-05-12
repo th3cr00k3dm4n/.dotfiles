@@ -1,10 +1,4 @@
 {
-    "label" : "lock",
-    "action" : "swaylock",
-    "text" : "Lock",
-    "keybind" : "l"
-}
-{
     "label" : "logout",
     "action" : "loginctl terminate-user $USER",
     "text" : "Logout",
@@ -16,10 +10,15 @@
     "text" : "Shutdown",
     "keybind" : "s"
 }
-
 {
     "label" : "reboot",
     "action" : "systemctl reboot",
     "text" : "Reboot",
     "keybind" : "r"
+}
+{
+    "label" : "lock",
+    "action" : "swaylock",
+    "text" : "Lock",
+    "keybind" : "l"
 }

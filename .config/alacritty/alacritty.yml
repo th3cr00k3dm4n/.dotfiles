@@ -23,7 +23,7 @@ window:
   startup_mode: Windowed
   dynamic_title: true
 
-  opacity: 0.7
+  opacity: 0.8
 ## scrolling
   history: 10000
   multiplier: 3
@@ -44,27 +44,27 @@ live_config_reload: true
 # BEGIN ACE
 colors:
   primary:
-    background: '#12081c'
-    foreground: '#f0d0da'
+    background: '#121a1e'
+    foreground: '#d4d5d8'
   cursor:
-    text:       '#12081c'
-    cursor:     '#f0d0da'
+    text:       '#121a1e'
+    cursor:     '#d4d5d8'
   normal:
-    black:      '#12081c'
-    red:        '#C57CA2'
-    green:      '#9B82AE'
-    yellow:     '#B58BAF'
-    blue:       '#C992B1'
-    magenta:    '#DBA1BB'
-    cyan:       '#D0A7C2'
-    white:      '#f0d0da'
+    black:      '#121a1e'
+    red:        '#919491'
+    green:      '#A2A29B'
+    yellow:     '#969BA5'
+    blue:       '#9DA2AA'
+    magenta:    '#AFB2B8'
+    cyan:       '#C0C0BE'
+    white:      '#d4d5d8'
   bright:
-    black:      '#a89198'
-    red:        '#C57CA2'
-    green:      '#9B82AE'
-    yellow:     '#B58BAF'
-    blue:       '#C992B1'
-    magenta:    '#DBA1BB'
-    cyan:       '#D0A7C2'
-    white:      '#f0d0da'
+    black:      '#949597'
+    red:        '#919491'
+    green:      '#A2A29B'
+    yellow:     '#969BA5'
+    blue:       '#9DA2AA'
+    magenta:    '#AFB2B8'
+    cyan:       '#C0C0BE'
+    white:      '#d4d5d8'
 # END ACE
