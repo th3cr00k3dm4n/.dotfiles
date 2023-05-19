@@ -9,9 +9,9 @@ wal -i "$IMG" >/dev/null 2>&1
 pywalfox update
 /home/$USER/.scripts/alacritty-wal.sh
 /home/$USER/.scripts/mako-color.sh
+notify-send "Theme Updated :)"
 pkill waybar
 waybar >/dev/null 2>&1 & disown &&
 sleep 0.5 
-notify-send "Theme Updated :)"
 exit
 
