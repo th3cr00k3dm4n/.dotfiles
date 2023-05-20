@@ -4,7 +4,7 @@
 - WM      : [Wayfire](https://github.com/WayfireWM/wayfire)
 * Terminal: [Alacritty](https://github.com/alacritty)
 - Bar     : [Waybar](https://github.com/Alexays/Waybar)
-
+- Dotfiles are managed using [Stow](https://www.gnu.org/software/stow/)
 - [Pywal](https://github.com/dylanaraps/pywal) Used To Generate Color Schemes 
 ### Screenshots
 
