@@ -7,7 +7,6 @@ rm -rf .cache/wall/*
 sleep 0.3
 wal -i "$IMG" >/dev/null 2>&1 
 pywalfox update
-/home/$USER/.scripts/alacritty-wal.sh
 /home/$USER/.scripts/mako-color.sh
 notify-send "Theme Updated :)"
 pkill waybar

@@ -1,5 +1,3 @@
-
-
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%B%{$fg[green]%}%~%{$fg[blue]%} →%{$reset_color%}%b "
@@ -20,10 +18,11 @@ alias dwn="cd Downloads"
 alias ll="ls -al"
 alias dots="cd .dotfiles"
 alias autoclean="./.scripts/cleanup.sh"
-
+#import pywal colors
+(cat ~/.cache/wal/sequences &)
 
 #plugins
 source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
-.scripts/fet.sh
+./.scripts/fet.sh
