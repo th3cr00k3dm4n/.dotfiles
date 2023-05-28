@@ -28,25 +28,25 @@ max-visible=5
 layer=overlay
 anchor=bottom-right
 
-background-color=#111a0d
-text-color=#983C36
+background-color=#0c0413
+text-color=#9E5F65
 
 [urgency=low]
-border-color=#983C36
-background-color=#111a0d
-text-color=#983C36
+border-color=#9E5F65
+background-color=#0c0413
+text-color=#9E5F65
 
 [urgency=normal]
-border-color=#983C36
-background-color=#111a0d
-text-color=#983C36
+border-color=#9E5F65
+background-color=#0c0413
+text-color=#9E5F65
 default-timeout=10000
 ignore-timeout=1
 
 [urgency=high]
 font=Sauce Code Pro 16
-border-color=#983C36
-background-color=#111a0d
-text-color=#983C36
+border-color=#9E5F65
+background-color=#0c0413
+text-color=#9E5F65
 default-timeout=0
 ignore-timeout=1
