@@ -2,7 +2,7 @@
 * OS      : [Arch linux](https://archlinux.org)
 + Shell   : [Zsh](https://github.com/zsh-users/zsh)
 - WM      : [Wayfire](https://github.com/WayfireWM/wayfire)
-* Terminal: [Alacritty](https://github.com/alacritty)
+* Terminal: [Foot](https://github.com/DanteAlighierin/foot)
 - Bar     : [Waybar](https://github.com/Alexays/Waybar)
 - [Pywal](https://github.com/dylanaraps/pywal) Used To Generate Color Schemes 
 ### Screenshots

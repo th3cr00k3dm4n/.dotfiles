@@ -12,6 +12,7 @@ zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
+setopt auto_cd
 
 #alias
 alias dwn="cd Downloads"
